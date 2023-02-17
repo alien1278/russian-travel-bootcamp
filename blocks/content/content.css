@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 0;
+  /* margin: 28px 48px 56px; */
+  gap: 92px;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    gap: 88px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content {
+    gap: 64px;
+    width: 100%;
+  }
+}
