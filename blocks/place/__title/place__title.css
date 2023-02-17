@@ -22,11 +22,17 @@
     line-height: 110%;
   }
 }
+@media screen and (max-width: 600px) {
+  .place__title {
+    margin-left: 24px;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .place__title {
     width: 100%;
     font-size: 32px;
     line-height: 109%;
+    margin-left: 16px;
   }
 }
