@@ -29,7 +29,7 @@
     font-size: 46px;
     line-height: 110%;
     min-width: 288px;
-    min-height: 88px;
+    /* min-height: 88px; */
     margin: 0 16px;
   }
 }
@@ -39,7 +39,7 @@
     font-size: 40px;
     line-height: 110%;
     min-width: 288px;
-    min-height: 88px;
+    /* min-height: 88px; */
     margin: 0 16px;
   }
 }

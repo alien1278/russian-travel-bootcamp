@@ -6,6 +6,7 @@
   /* width: 928px; */
   margin: 0 auto;
   max-width: calc(100% - 2 * 148px);
+  gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,11 +18,13 @@
 @media screen and (max-width: 768px) {
   .places {
     max-width: calc(100% - 2 * 24px);
+    gap: 73px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .places {
     min-width: 100%;
+    gap: 50px;
   }
 }
