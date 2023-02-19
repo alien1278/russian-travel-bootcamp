@@ -4,11 +4,13 @@
   display: flex;
   list-style: none;
   flex-wrap: wrap;
+  column-gap: 18px;
 }
 
 @media screen and (max-width: 650px) {
   .footer__links {
     flex-direction: column;
-    margin-bottom: 16px;
+
+    row-gap: 16px;
   }
 }
