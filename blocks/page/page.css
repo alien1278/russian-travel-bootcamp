@@ -9,16 +9,5 @@
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-}
-
-@media screen and (max-width: 1024px) {
-  .page {
-    width: calc(100% - 2 * 48px);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    width: 100%;
-  }
+  width: 100%;
 }

@@ -5,19 +5,21 @@
   /* box-sizing: border-box; */
   /* width: 928px; */
   margin: 0 auto;
-  max-width: calc(100% - 2 * 148px);
+  max-width: calc(100% - 2 * 148);
   gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: calc(100% - 2 * 48px);
+    max-width: calc(100% - 2 * 48);
+    padding: 0 48px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    max-width: calc(100% - 2 * 24px);
+    width: calc(100% - 2 * 24px);
+    padding: 0 24px;
     gap: 73px;
   }
 }
@@ -26,5 +28,6 @@
   .places {
     min-width: 100%;
     gap: 50px;
+    padding: 0;
   }
 }

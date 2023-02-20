@@ -1,4 +1,17 @@
 .lead__figure {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  width: calc(100% - 2 * 148px);
+}
+
+@media screen and (max-width: 1024px) {
+  .lead__figure {
+    width: calc(100% - 2 * 48px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .lead__figure {
+    width: 100%;
+  }
 }
