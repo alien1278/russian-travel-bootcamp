@@ -5,13 +5,13 @@
   /* box-sizing: border-box; */
   /* width: 928px; */
   margin: 0 auto;
-  max-width: calc(100% - 2 * 148);
+  max-width: calc(100% - 2 * 148px);
   gap: 80px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: calc(100% - 2 * 48);
+    max-width: calc(100% - 2 * 48px);
     padding: 0 48px;
   }
 }
