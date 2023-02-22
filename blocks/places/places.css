@@ -4,30 +4,31 @@
   align-items: center;
   /* box-sizing: border-box; */
   /* width: 928px; */
-  margin: 0 auto;
-  max-width: calc(100% - 2 * 148px);
+
+  /* max-width: calc(100% - 2 * 148px); */
+  margin: 0 148px;
   gap: 80px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   .places {
-    max-width: calc(100% - 2 * 48px);
-    padding: 0 48px;
+    /* max-width: calc(100% - 2 * 48px); */
+    margin: 0 48px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .places {
-    width: calc(100% - 2 * 24px);
-    padding: 0 24px;
+    /* width: calc(100% - 2 * 24px); */
+    margin: 0 24px;
     gap: 73px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .places {
-    min-width: 100%;
+    /* min-width: 100%; */
     gap: 50px;
-    padding: 0;
+    margin: 0;
   }
 }

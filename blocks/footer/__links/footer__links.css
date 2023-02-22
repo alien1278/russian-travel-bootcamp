@@ -13,3 +13,9 @@
     row-gap: 16px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .footer__links {
+    row-gap: 32px;
+  }
+}

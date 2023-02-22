@@ -56,6 +56,9 @@ h1,
 h2,
 li,
 p,
+img,
+figcaption,
+figure,
 section {
-  border: 1px solid red;
+  outline: 1px solid red;
 } */

@@ -11,6 +11,12 @@
   position: relative;
 }
 
+@media screen and (max-width: 600px) {
+  .cover__title {
+    font-size: 56px;
+    line-height: 107%;
+  }
+}
 @media screen and (max-width: 500px) {
   .cover__title {
     max-width: 288px;
@@ -21,6 +27,6 @@
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    margin: 33px auto 16px;
+    margin: 0 auto 16px;
   }
 }
