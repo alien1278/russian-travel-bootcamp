@@ -5,18 +5,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 163%;
-  max-width: 484px;
   box-sizing: border-box;
 }
 .place__paragraph:last-of-type {
   margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__paragraph {
-    max-width: 440px;
-  }
-}
 @media screen and (max-width: 900px) {
   .place__paragraph {
     font-size: 16px;
